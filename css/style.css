@@ -1,0 +1,19 @@
+/*------- Gallery Section Starts -------*/
+
+body { background: url("../images/banner.jpg") no-repeat fixed top/cover; height: 100vh; overflow-x: hidden; }
+.fake-scroll { position: absolute; top: 0; width: 1px; }
+.container { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10%; justify-items: end; left: 0; position: fixed; top: 0; width: 100%; }
+.image { background-position: center; background-repeat: no-repeat; height: 100vh; position: relative; width: 300px; }
+.image:nth-child(2n) { justify-self: start; }
+.image:nth-child(1) { background-image: url("../images/image-1.jpg"); }
+.image:nth-child(2) { background-image: url("../images/image-2.jpg"); }
+.image:nth-child(3) { background-image: url("../images/image-3.jpg"); }
+.image:nth-child(4) { background-image: url("../images/image-4.jpg"); }
+.image:nth-child(5) { background-image: url("../images/image-5.jpg"); }
+.image:nth-child(6) { background-image: url("../images/image-6.jpg"); }
+.image:nth-child(7) { background-image: url("../images/image-7.jpg"); }
+.image:nth-child(8) { background-image: url("../images/image-8.jpg"); }
+.image:nth-child(9) { background-image: url("../images/image-9.jpg"); }
+.image:nth-child(10) { background-image: url("../images/image-10.jpg"); }
+
+/*------- Gallery Section Ends -------*/

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 767px) {
+
+	/*------- Gallery Section Starts -------*/
+
+.container { grid-template-columns: 1fr; justify-items: center; }
+.image:nth-child(2n) { justify-self: center; }
+
+	/*------- Gallery Section Ends -------*/
+}
